@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Figtree', sans-serif;
+    font-size: 18px;
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+.section-one {
+    background-image: url('./images/bg-header-mobile.png');
+    background-size: 100% auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.section-one img {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media (min-width: 1440px) {
+    .section-one {
+        background-image: url('./images/bg-header-desktop.png');
+    }
+}
+/*
+@media (min-width: 1000px) {
+    .section-three {
+        display: flex;
+        flex-direction: row;
+    }
+}*/
+
+.ioS-button {
+    background-color:hsl(171, 66%, 44%);
+    border-radius: 5rem;
+    width: 100%;
+    border-style: none;
+    height: 4rem;
+}
+.mac-button {
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 5rem;
+    width: 100%;
+    border-style: none;
+    height: 4em;
+}
+.section-nine {
+    background-color: #F2F3F4; 
+}
+
+.section-nine > img {
+    width: 50px;
+    height: 50px;
+}
