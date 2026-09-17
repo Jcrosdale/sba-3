@@ -1,0 +1,3 @@
+Chosen Frontend Mentor challenge: Clipboard Landing Page - A website for all the clips from multiple devices to be stored. Each section of the code displays a different device, various companies that use it, or social media links.
+
+There are around 9 sections created for the website. There are some features that stack vertically for a mobile screen and spread out horizontally for desktop screens. When implementing, I ran into many problems relating to the spacing between sections. Especially because they tended to stick together the more the screen scrolled down. Even though there were different methods attempted, it still wasn't budging. However, all of the sections are responsive to different screen sizes.
